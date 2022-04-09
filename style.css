@@ -1,0 +1,49 @@
+#addlist{
+    border: 0px;
+    background-color: white;
+    align-items: center;
+    font-size: 45px;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+}
+
+#list {
+    display: flex;
+    flex-flow:  wrap;
+    margin: 15px 15%;
+}
+#p1{
+    flex: 50%;
+}
+#addlist{
+    flex: 50%;
+    text-align: right;
+}
+#listings{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    margin: 10px 15%;
+
+}
+
+#popup{
+    display: none;
+    align-items: center;
+    border-radius: 2px solid black;
+    text-align: center;
+    border: 2px solid black;
+    width: 420px;
+    height: 150px;
+    padding: 20px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    z-index: 500;
+   
+}
